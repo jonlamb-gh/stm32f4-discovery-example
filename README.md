@@ -4,6 +4,7 @@ Rust STM32F4 discovery board example project
 ## Building
 
 ```bash
+# rustc 1.29.0-nightly (54628c8ea 2018-07-30)
 cargo build
 ```
 
