@@ -6,3 +6,7 @@ Rust STM32F4 discovery board example project
 ```bash
 cargo build
 ```
+
+## Links
+
+- https://github.com/adamgreig/stm32-rs/tree/master/stm32f4

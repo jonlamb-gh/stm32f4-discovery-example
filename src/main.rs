@@ -9,6 +9,9 @@
 extern crate cortex_m_rt as rt;
 extern crate cortex_m_semihosting as sh;
 extern crate panic_semihosting;
+extern crate stm32f4;
+
+use stm32f4::stm32f407;
 
 use core::fmt::Write;
 

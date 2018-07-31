@@ -2,9 +2,9 @@ MEMORY
 {
     /* NOTE K = KiBi = 1024 bytes */
 
-    /* STM32F7 */
-    FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 2048K
-    RAM (xrw) : ORIGIN = 0x20000000, LENGTH = 512K
+    /* STM32F407VG 1024KByte FLASH, 192KByte RAM */
+    FLASH (rx) : ORIGIN = 0x08000000, LENGTH = 1024K
+    RAM (xrw)  : ORIGIN = 0x20000000, LENGTH = 192K
 }
 
 /* This is where the call stack will be allocated. */
