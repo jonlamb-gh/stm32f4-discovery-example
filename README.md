@@ -25,4 +25,5 @@ cargo run
 
 - [cortex-m quickstart](http://blog.japaric.io/quickstart/)
 - [device crate](https://github.com/adamgreig/stm32-rs/tree/master/stm32f4)
+- [example F3 HAL crate](https://github.com/japaric/stm32f30x-hal)
 - [example F3 board support crate](https://github.com/japaric/f3)
