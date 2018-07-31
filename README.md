@@ -22,4 +22,5 @@ cargo run
 
 ## Links
 
-- https://github.com/adamgreig/stm32-rs/tree/master/stm32f4
+- [cortex-m quickstart](http://blog.japaric.io/quickstart/)
+- [device crate](https://github.com/adamgreig/stm32-rs/tree/master/stm32f4)
