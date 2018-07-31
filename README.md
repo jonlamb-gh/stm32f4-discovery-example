@@ -7,6 +7,19 @@ Rust STM32F4 discovery board example project
 cargo build
 ```
 
+## Debugging
+
+```bash
+openocd -f interface/stlink-v2-1.cfg -f target/stm32f4x.cfg
+```
+
+```bash
+cargo run
+
+# or manually
+# arm-none-eabi-gdb target/thumbv7em-none-eabihf/debug/stm32f4-discovery-example
+```
+
 ## Links
 
 - https://github.com/adamgreig/stm32-rs/tree/master/stm32f4
