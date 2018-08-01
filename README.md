@@ -27,3 +27,5 @@ cargo run
 - [device crate](https://github.com/adamgreig/stm32-rs/tree/master/stm32f4)
 - [example F3 HAL crate](https://github.com/japaric/stm32f30x-hal)
 - [example F3 board support crate](https://github.com/japaric/f3)
+- [my F4 HAL crate](https://github.com/jonlamb-gh/stm32f407-hal)
+- [my F4 board support crate](https://github.com/jonlamb-gh/f4-bsp)

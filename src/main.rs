@@ -10,13 +10,13 @@ extern crate cortex_m;
 extern crate cortex_m_rt as rt;
 extern crate cortex_m_semihosting as sh;
 extern crate panic_semihosting;
-extern crate stm32f4;
+extern crate f4_bsp;
 
 use core::fmt::Write;
 use cortex_m::asm;
 use rt::ExceptionFrame;
 use sh::hio;
-use stm32f4::stm32f407;
+use f4_bsp::hal::stm32f407;
 
 entry!(main);
 

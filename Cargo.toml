@@ -12,9 +12,11 @@ panic-semihosting = "0.3.0"
 version = "0.5.1"
 features = ["device"]
 
-[dependencies.stm32f4]
-version = "0.2.2"
-features = ["stm32f407", "rt"]
+[dependencies.f4-bsp]
+version = "0.0.1"
+git = "https://github.com/jonlamb-gh/f4-bsp.git"
+branch = "devel"
+features = ["rt"]
 
 [profile.release]
 codegen-units = 1 # better optimizations
