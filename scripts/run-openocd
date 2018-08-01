@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -e
+
+openocd -f interface/stlink-v2-1.cfg -f target/stm32f4x.cfg
+
+exit 0

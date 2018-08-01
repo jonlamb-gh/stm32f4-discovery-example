@@ -11,7 +11,10 @@ cargo build
 ## Debugging
 
 ```bash
-openocd -f interface/stlink-v2-1.cfg -f target/stm32f4x.cfg
+./scripts/run-openocd
+
+# or manually
+# openocd -f interface/stlink-v2-1.cfg -f target/stm32f4x.cfg
 ```
 
 ```bash
